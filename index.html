@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Learn Hadith</title>
+	<link rel="stylesheet" href="./style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css">
+</head>
+<body>
+	<!-- loader -->
+	<div class="loader hidden">
+		<img src="slider-1.svg" alt="Loading animation">
+	</div>
+	<div class="navigation">
+		<h3 class="learnings">My learnings</h3>
+	</div>
+	<div class="hadith__container hidden">
+		<div class="hadith__narrator">
+			<h3 class="hadith__narrator--name"></h3>
+			<span>R.A</span>
+		</div>
+		<div class="hadith__favorite">
+			<i class="far fa-heart custom-heart"></i>
+		</div>
+		<div class="hadith__text">
+			<p class="hadith__text--msg"></p>
+		</div>
+		<!-- <div class="hadith__refrence">
+			<span class="hadith__refrence--book">Book: <span class="bookSlug">sahih-bukhari</span></span>
+			<span class="hadith__refrence--chapter">Chapter: <span class="chapter">Revelation</span></span>
+			<span class="hadith__refrence--number">Hadith-number: <span class="number">1</span></span>
+		</div> -->
+		<div class="hadith__btns">
+			<div class="tweet"><i class="fab fa-twitter" id="tweetIt"></i><i class="fas fa-microphone-slash positioning"></i></div>
+			<button class="hadith__new">Next Hadith</button>
+			<audio src="" autoplay class="hadith__audio"></audio>
+		</div>
+	</div>
+	<div class="modal__overlay modal-show hidden">
+		<div class="modal">
+			<i class="fas fa-times close" id="closeModal"></i>
+			<div class="modal__header">
+				<h3>Add Hadith</h3>
+			</div>
+			<div class="modal__content">
+				<form class="form" id="hadithForm">	
+					<div class="form__why">
+						<label for="formText" class="form__header">
+							Why do you want to save this hadith?
+						</label>
+						<textarea id="formText" class="form__text" cols="30" rows="9" placeholder="Start typing what you understood and how are you going to us this hadith. "></textarea>
+					</div>
+					<button type="submit" class="save">save</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<!-- <div class="favorite hidden"> -->
+
+		<div class="favorite__container cc-container hidden">
+			<div class="favorite__hadith">
+				<h3 class="favorite__title cc-title">Hadith Number: <span id="getHadithNumber"></span></h3>
+				<p class="favorite__text cc-text" id="getHadithText">
+				</p>
+				<p class="favorite__views cc-view" id="getHadithView">
+				</p>
+				<button class="next">Next&nbsp;&rarr;</button>
+			</div>
+		</div>
+	<!-- </div> -->
+	<script src="./script.js"></script>
+</body>
+</html>

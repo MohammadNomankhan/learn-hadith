@@ -32,7 +32,6 @@ body {
 
 .hadith__container,
 .favorite__container {
-	overflow-y: scroll;
 	background-color: #001858;
 	max-width: 90%;
 	width: auto;
@@ -46,6 +45,7 @@ body {
 	position: relative;
 /*	row-gap: 2rem;*/
 }
+
 
 
 .hadith__text,

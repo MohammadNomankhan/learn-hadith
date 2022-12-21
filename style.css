@@ -9,10 +9,9 @@
 }
 
 *::selection {
-    color: #f582ae;
-    background-color: #fef6e4;
+	color: #f582ae;
+	background-color: #fef6e4;
 }
-
 
 html {
 	font-size: 62.5%;
@@ -43,10 +42,8 @@ body {
 	margin-top: 2rem;
 	max-height: 80%;
 	position: relative;
-/*	row-gap: 2rem;*/
+	/*	row-gap: 2rem;*/
 }
-
-
 
 .hadith__text,
 .favorite__text,
@@ -58,7 +55,6 @@ body {
 	text-align: justify;
 	overflow-y: scroll;
 }
-
 
 .hadith__narrator {
 	display: flex;
@@ -75,7 +71,6 @@ body {
 
 .custom-heart {
 	font-size: 2.5rem;
-
 }
 
 i {
@@ -112,10 +107,8 @@ i {
 .hadith__refrence--book {
 }
 .hadith__refrence--chapter {
-	
 }
 .hadith__refrence--number {
-	
 }
 .hadith__btns {
 	display: flex;
@@ -131,9 +124,8 @@ i {
 	border: none;
 	border-radius: 1rem;
 	cursor: pointer;
-	transition: all .1s;
+	transition: all 0.1s;
 	backface-visibility: hidden;
-	
 }
 .hadith__new:hover {
 	transform: translateY(-0.5rem) scale(0.98);
@@ -149,7 +141,7 @@ i {
 
 #tweetIt,
 .positioning {
-	transition: all .1s;
+	transition: all 0.1s;
 	backface-visibility: hidden;
 }
 
@@ -157,7 +149,6 @@ i {
 	padding: 1rem 2rem;
 	border-radius: 1rem;
 	cursor: pointer;
-	
 }
 
 #tweetIt {
@@ -170,7 +161,6 @@ i {
 	color: #f582ae;
 	font-size: 3rem;
 }
-
 
 /* loader */
 
@@ -209,31 +199,28 @@ img {
 
 .learnings::after {
 	position: absolute;
-	content: "";
+	content: '';
 	bottom: 0;
 	left: 0;
 	background-color: #f582ae;
 	width: 0%;
 	height: 2.5px;
-	transition: all .3s;
-
+	transition: all 0.3s;
 }
 
 .learnings:hover::after {
 	width: 100%;
 }
 
-
 /* add to fav */
 .modal__overlay {
-/*	background-color: rgba(0, 0, 0, 0.6);*/
+	/*	background-color: rgba(0, 0, 0, 0.6);*/
 	width: 100vw;
 	height: 100vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-/*	flex-direction: column;*/
-
+	/*	flex-direction: column;*/
 }
 
 .modal {
@@ -264,7 +251,7 @@ img {
 .modal__header {
 	font-size: 2.5rem;
 	color: #001858;
-  	text-shadow: 2px 2px 5rem #000000;
+	text-shadow: 2px 2px 5rem #000000;
 }
 
 .modal__content {
@@ -286,8 +273,8 @@ img {
 .form__header {
 	font-size: 1.5rem;
 	color: #001858;
-/*	opacity: 0;*/
-/*	translate: 0 4.5rem;*/
+	/*	opacity: 0;*/
+	/*	translate: 0 4.5rem;*/
 }
 
 /*input:placeholder-shown label.form__header{
@@ -306,8 +293,6 @@ img {
 	background-color: #f3d2c1;
 }
 
-
-
 .save,
 .next {
 	align-self: start;
@@ -321,7 +306,7 @@ img {
 	border: none;
 	text-transform: uppercase;
 	backface-visibility: hidden;
-	transition: all .05s;
+	transition: all 0.05s;
 	box-shadow: 0 1rem 2rem 5px rgba(0, 0, 0, 0.2);
 	text-align: center;
 }
@@ -331,8 +316,6 @@ img {
 	translate: 0 -2px;
 }
 
-
-
 /* custom stylings form my learnigs */
 
 .favorite {
@@ -341,16 +324,16 @@ img {
 	align-items: center;
 }
 
-.cc-container{
+.cc-container {
 	background-color: #fef6e4;
 }
-.cc-title{
+.cc-title {
 	color: #f582ae;
 }
-.cc-text{
+.cc-text {
 	color: #001858;
 }
-.cc-view{
+.cc-view {
 	background-color: #001858;
 	color: #fef6e4;
 	border-radius: 1rem;
@@ -358,9 +341,6 @@ img {
 	overflow-y: scroll;
 	max-height: 20rem;
 }
-
-
-
 
 /* media query */
 @media screen and (max-width: 900px) {
@@ -371,19 +351,36 @@ img {
 		align-items: start;
 	}
 	.hadith__container,
-	.favorite__container {		
+	.favorite__container {
 		width: 100%;
 		max-width: 100%;
 		margin: 10rem 1.5rem 2rem 1.5rem;
 		padding: 1.5rem 2.5rem;
-/*		height: 70%;*/
+		/*		height: 70%;*/
 	}
 	.hadith__text {
 		margin-top: 2.5rem;
 	}
 	.modal {
 		width: 100%;
-		margin: auto 2rem; 
+		margin: auto 2rem;
 	}
+}
 
+/* scrollbar */
+/* width */
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #fef6e4;
+	border-radius: 1rem;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #f582ae;
+	border-radius: 1rem;
 }

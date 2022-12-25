@@ -9,7 +9,7 @@
 }
 
 *::selection {
-	color: #f582ae;
+	color: #272343;
 	background-color: #fef6e4;
 }
 
@@ -21,7 +21,7 @@ body {
 	box-sizing: border-box;
 	font-family: 'Barlow', sans-serif;
 	line-height: 1.5;
-	background-color: #fef6e4;
+	background-color: #e3f6f5;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -31,7 +31,7 @@ body {
 
 .hadith__container,
 .favorite__container {
-	background-color: #001858;
+	background-color: #fffffe;
 	max-width: 90%;
 	width: auto;
 	padding: 3rem 6rem;
@@ -48,7 +48,7 @@ body {
 .hadith__text,
 .favorite__text,
 .favorite__views {
-	color: #fef6e4;
+	color: #2d334a;
 	font-size: 3rem;
 	margin-top: 0.8rem;
 	margin-bottom: 1.5rem;
@@ -64,7 +64,7 @@ body {
 
 .hadith__favorite {
 	position: absolute;
-	color: #f582ae;
+	color: #272343;
 	top: 2rem;
 	right: 2rem;
 }
@@ -80,7 +80,7 @@ i {
 .hadith__narrator h3,
 .hadith__narrator span,
 .favorite__title {
-	color: #f582ae;
+	color: #272343;
 	font-size: 1.5rem;
 	font-weight: bold;
 }
@@ -118,7 +118,7 @@ i {
 	margin-top: 2rem;
 }
 .hadith__new {
-	background-color: #f582ae;
+	background-color: #ffd803;
 	font-size: 2rem;
 	padding: 1.5rem 3rem;
 	border: none;
@@ -126,6 +126,7 @@ i {
 	cursor: pointer;
 	transition: all 0.1s;
 	backface-visibility: hidden;
+	color: #272343;
 }
 .hadith__new:hover {
 	transform: translateY(-0.5rem) scale(0.98);
@@ -158,14 +159,14 @@ i {
 
 .positioning {
 	margin-left: 4rem;
-	color: #f582ae;
+	color: #272343;
 	font-size: 3rem;
 }
 
 /* loader */
 
 .loader {
-	background-color: #fef6e4;
+	background-color: #e3f6f5;
 	height: 100vh;
 	width: 100vw;
 	display: flex;
@@ -189,7 +190,7 @@ img {
 	top: 3rem;
 	right: 3rem;
 	font-size: 2rem;
-	color: #f582ae;
+	color: #272343;
 }
 
 .learnings {
@@ -202,7 +203,7 @@ img {
 	content: '';
 	bottom: 0;
 	left: 0;
-	background-color: #f582ae;
+	background-color: #272343;
 	width: 0%;
 	height: 2.5px;
 	transition: all 0.3s;
@@ -245,12 +246,12 @@ img {
 	top: 1rem;
 	right: 1rem;
 	font-size: 2rem;
-	color: #f582ae;
+	color: #272343;
 }
 
 .modal__header {
 	font-size: 2.5rem;
-	color: #001858;
+	color: #272343;
 	text-shadow: 2px 2px 5rem #000000;
 }
 
@@ -288,9 +289,9 @@ img {
 	outline: none;
 	padding: 1rem;
 	font-size: 2rem;
-	color: #001858;
 	font-family: 'Barlow', sans-serif;
-	background-color: #f3d2c1;
+	color: #fffffe;
+	background-color: #272343;
 }
 
 .save,
@@ -299,8 +300,8 @@ img {
 	padding: 1.3rem 3rem;
 	font-size: 1.7rem;
 	cursor: pointer;
-	background-color: #f582ae;
-	color: #001858;
+	background-color: #ffd803;
+	color: #272343;
 	outline: none;
 	border-radius: 1rem;
 	border: none;
@@ -325,17 +326,17 @@ img {
 }
 
 .cc-container {
-	background-color: #fef6e4;
+	background-color: #fffffe;
 }
 .cc-title {
-	color: #f582ae;
+	color: #272343;
 }
 .cc-text {
-	color: #001858;
+	color: #2d334a;
 }
 .cc-view {
-	background-color: #001858;
-	color: #fef6e4;
+	background-color: #272343;
+	color: #fffffe;
 	border-radius: 1rem;
 	padding: 2rem;
 	overflow-y: scroll;
@@ -386,7 +387,7 @@ img {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-	background: #f582ae;
+	background: #272343;
 	border-radius: 1rem;
 }
 

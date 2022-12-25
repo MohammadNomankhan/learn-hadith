@@ -12,4 +12,4 @@
              animation: none;
          }
      }
-    </style><line class="stroke2" x1="4" y1="49" x2="96" y2="49" stroke="rgba(245,130,174,1)" stroke-width="2px" style="animation-duration: 3s;"></line><circle class="line-slider1 stroke1 fill1" cx="17" cy="49" r="8" fill="#fff" stroke="rgba(245,130,174,1)" stroke-width="2px" style="animation-duration: 3s;"></circle></svg>
+    </style><line class="stroke2" x1="4" y1="49" x2="96" y2="49" stroke="rgba(255, 216, 3, 1)" stroke-width="2px" style="animation-duration: 3s;"></line><circle class="line-slider1 stroke1 fill1" cx="17" cy="49" r="8" fill="#fff" stroke="rgba(255, 216, 3, 1)" stroke-width="2px" style="animation-duration: 3s;"></circle></svg>
